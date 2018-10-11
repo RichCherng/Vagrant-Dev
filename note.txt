@@ -1,0 +1,21 @@
+config.vm.box - Operating System
+config.vm.provider - virtualbox
+config.vm.network - How your host see your box
+config.vm.shared_folder - How you access files from your computer
+config.vm.synced_folder - How you access files from your computer
+config.vm.provision - what we want setup
+
+
+
+## Vagrant Commands
+```
+vagrant up # Start/create box
+vagrant destroy 
+vagrant suspend	# Saved
+vagrant resume 
+vagrant reload # reload config
+```
+
+
+## Problem with more than one cpu for VMware
+https://stackoverflow.com/questions/17117063/how-can-i-create-a-vm-in-vagrant-with-virtualbox-with-two-cpus
